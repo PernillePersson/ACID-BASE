@@ -29,10 +29,10 @@ BEGIN
     WHERE id = p_to_account_id;
 
     -- Indsæt transaktioner for begge konti
-    INSERT INTO "Transaction"(Amount, Date, AccountId)
+    INSERT INTO "transaction"(Amount, Date, AccountId)
     VALUES (-p_amount, CURRENT_DATE, p_from_account_id);
 
-    INSERT INTO "Transaction"(Amount, Date, AccountId)
+    INSERT INTO "transaction"(Amount, Date, AccountId)
     VALUES (p_amount, CURRENT_DATE, p_to_account_id);
 END;
 $$;

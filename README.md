@@ -4,11 +4,11 @@
 <img width="1050" height="584" alt="image" src="https://github.com/user-attachments/assets/012b5d5c-f11c-4aa5-a9be-fd87cdb84aa1" />
 
 - **Generer den nødvendige SQL kode til at oprette tabellerne**
-  -[Create Tables SQL](./createTables.sql)
+  - [Create Tables SQL](./createTables.sql)
   
 - **Indsæt data og vis eksempler på transaktioner**
-  -[Indsæt testdata SQL](./TestData.sql)
-  -[Transfer procedure SQL](./TransferFunds.sql)
+  - [Indsæt testdata SQL](./TestData.sql)
+  - [Transfer procedure SQL](./TransferFunds.sql)
   
 - **Vis hvordan ACID egenskaberne sikrer dataintegritet ved overførsler mellem konti**
 

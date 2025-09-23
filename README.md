@@ -37,6 +37,16 @@
   - [JSON med users data](./users.json)
   - [JSON med post](./posts.json)
 - **Indsæt data og vis eksempler på opslag, kommentarer og reactions**
+  - Lavet ovenover lol
 - **Vis hvordan BASE egenskaberne sikrer høj tilgængelighed og skalerbarhed ved opslag og kommentarer**
+    - Basically available
+      - Ingen brugere oplever downtime - Selvom én node er nede, kan andre replicas stadig returnere data. (Esben kan stadig se og reagere på Thomas' post)
+  - Soft state
+      - Data kan være midlertidigt inkonsistente, fordi alle noder ikke er opdateret samtidig. (Victoria kan like et billede, men reaktions vises ikke med det samme for alle brugere)
+  - Eventual consistency
+      - Alle replicas bliver konsistente på et tidspunkt, selvom de midlertidigt kan have forskellig data. (Pernille liker Thomas' opslag. Først kan kun Esben se den. På et tidspunkt kan Victoria også se den)
 - **Opret eksempler med NoSQL kode for opslag, kommentarer og reactions**
+  - Også lavet ovenover ups
+  - [JSON med post](./posts.json)
 - **Undersøg om der findes andre database systemer der understøtter BASE**
+  - Andre dokumentdatabser, Kolonneorienterede databaser og key-value stores

@@ -30,6 +30,8 @@
 ## BASE opgaver:
 (Udganspunkt i MongoDB)
 - **Design et diagram for et socialt medie feed system samt brugere, opslag, kommentarer og reactions (e.g. likes og dislikes)**
+<img width="438" height="442" alt="image" src="https://github.com/user-attachments/assets/999a459c-b7d0-4e36-a3f6-d7f7918dc4da" />
+
 - **Generer den nødvendige NoSQL kode til at oprette collections og indsætte dokumenter**
 - **Indsæt data og vis eksempler på opslag, kommentarer og reactions**
 - **Vis hvordan BASE egenskaberne sikrer høj tilgængelighed og skalerbarhed ved opslag og kommentarer**

@@ -21,7 +21,7 @@
       - Når en overførsel er fuldført og committed, er ændringerne permanente, selv hvis systemet crasher bagefter.
 
 - **Opret eksempler med SQL kode for transaktioner**
-  - [Trasfer funds](./TransferFunds.sql)
+  - [Transfer funds](./TransferFunds.sql)
   - Eks: CALL transfer_funds(1, 2, 50.00);
 - **Undersøg om der findes andre database systemer der understøtter ACID**
    - Generelt SQL-databaser, som fks oracle, MySql, Microsoft SQL Server

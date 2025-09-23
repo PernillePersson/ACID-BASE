@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "post1",
+        "authorId": "user3",
+        "content": "Hej, dette er mit første opslag!",
+        "timestamp": "2025-09-23T10:00:00Z",
+        "reactions": [
+            {
+                "_id": "reaction1",
+                "userId": "user1",
+                "type": "like",
+                "timestamp": "2025-09-23T10:05:00Z"
+            }
+        ],
+        "comments": [
+            {
+                "_id": "comment1",
+                "authorId": "user2",
+                "content": "Fedt opslag, Thomas!",
+                "timestamp": "2025-09-23T10:10:00Z",
+                "reactions": [
+                    {
+                        "_id": "reaction2",
+                        "userId": "user4",
+                        "type": "dislike",
+                        "timestamp": "2025-09-23T10:15:00Z"
+                    }
+                ]
+            }
+        ]
+    }
+]

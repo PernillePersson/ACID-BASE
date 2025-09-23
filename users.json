@@ -1,0 +1,37 @@
+[
+    {
+        "_id": "user1",
+        "name": "Victoria",
+        "email": "victoria@example.com",
+        "profilePic": "victoria.jpg",
+        "following": [
+            "user2",
+            "user3"
+        ]
+    },
+    {
+        "_id": "user2",
+        "name": "Esben",
+        "email": "esben@example.com",
+        "profilePic": "esben.jpg",
+        "following": [
+            "user1"
+        ]
+    },
+    {
+        "_id": "user3",
+        "name": "Thomas",
+        "email": "thomas@example.com",
+        "profilePic": "thomas.jpg",
+        "following": [
+            "user1"
+        ]
+    },
+    {
+        "_id": "user4",
+        "name": "Pernille",
+        "email": "pernille@example.com",
+        "profilePic": "pernille.jpg",
+        "following": []
+    }
+]

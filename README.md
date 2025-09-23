@@ -33,6 +33,9 @@
 <img width="438" height="442" alt="image" src="https://github.com/user-attachments/assets/999a459c-b7d0-4e36-a3f6-d7f7918dc4da" />
 
 - **Generer den nødvendige NoSQL kode til at oprette collections og indsætte dokumenter**
+  - [NoSQL kode til oprettelse af users samt post](./createCollections.js)
+  - [JSON med users data](./users.json)
+  - [JSON med post](./posts.json)
 - **Indsæt data og vis eksempler på opslag, kommentarer og reactions**
 - **Vis hvordan BASE egenskaberne sikrer høj tilgængelighed og skalerbarhed ved opslag og kommentarer**
 - **Opret eksempler med NoSQL kode for opslag, kommentarer og reactions**

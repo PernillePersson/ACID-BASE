@@ -66,4 +66,4 @@ db.posts.insertOne({
     }
   ]
 });
-//Kan vi få langauge js op på 50%?
+//Kan vi få js op på 50%?
